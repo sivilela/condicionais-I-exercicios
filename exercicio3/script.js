@@ -25,3 +25,16 @@ nenhuma das possibilidades acima.
 
 > 💡 Lembre-se de prestar atenção às letras 
 maiúsculas e minúsculas.  */
+
+const nacionalidades = ["brasileira", "argentina", "uruguai", "chilena", "colombiana"]
+const qualNacionalidade = prompt("Digite sua nacionalidade: ")
+
+function checaNacionalidade (){
+    if (nacionalidades.includes(qualNacionalidade)){
+      console.log(qualNacionalidade);
+    }else{
+      console.log("Nacionalidade não encontrada");
+    }
+
+}
+checaNacionalidade(qualNacionalidade)
